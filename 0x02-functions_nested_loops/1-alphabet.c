@@ -1,16 +1,21 @@
 #include "main.h"
 /**
- * main - check code and  Prints lower case letters from a to z
- * Return: Always return 0
+ * print_alphabet - Prints alphabets in lower case
  */
+
+int print_alphabet(void)
+{
+	char lc;
+
+	for (lc = 'a'; lc <= 'z'; lc++)
+	return lc;
+}
 
 int main(void)
 {
 	char lc;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
-		_putchar(lc);
-
+	_putchar(lc);
 	_putchar('\n');
 	return (0);
 }
