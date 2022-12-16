@@ -2,12 +2,11 @@
 /**
  * _islower - c is lower
  * Return: Returns 1 if c is lower. Else it returns 0
- * 'c' : numeric value of lowercase alphabets
+ * @c: numeric value of lowercase alphabets
  */
-int _islower(void)
-{
-	int c;
 
+int _islower(int c)
+{
 	if (c >= 97)
 	{
 		return (1);
