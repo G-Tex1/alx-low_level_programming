@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * _abs: prints absolute value
+ * _abs -  prints absolute value
+ * @int: prints integer
+ * Return: Returns 1 or 0
  */
 
 int _abs(int)
