@@ -3,12 +3,12 @@
 /**
  * print_last_digit - prints the last digit of a number
  * Return: Returns the number
- * @int: Contains value
+ * @n: Contains value
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int n;
+	int result
 
 	if (n >= 0)
 	{
