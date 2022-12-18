@@ -28,6 +28,6 @@ int print_last_digit(int n)
 	}
 	else 
 	{
-		return (ld)
+		return (ld);
 	}
 }
