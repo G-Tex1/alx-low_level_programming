@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - prints the values of an array seperated by comma
  * @a: a pointer containing integers
