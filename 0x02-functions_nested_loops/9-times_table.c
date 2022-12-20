@@ -5,9 +5,17 @@
 
 void times_table(void)
 {
-	int i = [0..9] * [0..9];
+	int i = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+	int b = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+	int c;
 
-	_putchar(i);
-	_putchar(',');
-	_putchar('\n');
+	while (c <= 9)
+	{
+		c = i * b;
+		_putchar(c);
+		_putchar(',');
+		_putchar('\n');
+
+		c++;
+	}
 }
