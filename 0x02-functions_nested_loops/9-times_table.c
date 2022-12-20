@@ -5,18 +5,9 @@
 
 void times_table(void)
 {
-	int a;
-	int b;
-	int i;
+	int i = [0..9] * [0..9];
 
-	for (a = 0; a <= 9; a++)
-	{
-		for (b = 0; b <= 9; b++)
-		{
-			i = b * a;
-			_putchar(i);
-			_putchar(',');
-			_putchar('\n');
-		}
-	}
+	_putchar(i);
+	_putchar(',');
+	_putchar('\n');
 }
