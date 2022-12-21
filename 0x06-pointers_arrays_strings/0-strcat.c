@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcat - catinates strings
- * dest: contains the string destination
- * src: contains another string source
+ * @dest: contains the string destination
+ * @src: contains another string source
  * Return: returns destination string
  */
 
@@ -24,5 +24,6 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-	return (*dest);
+	return (dest);
+
 }
