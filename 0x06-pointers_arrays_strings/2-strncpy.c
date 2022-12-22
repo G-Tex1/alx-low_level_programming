@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - catinates the strings
+ * _strncpy - catinates the strings
  * @dest: destination to be copied to
  * @src: source to copy from
  * @n: number to copy from
