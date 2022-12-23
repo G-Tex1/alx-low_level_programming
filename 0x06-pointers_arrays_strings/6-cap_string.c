@@ -7,13 +7,13 @@
 
 char *cap_string(char *n)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-	for (i = 0; n[i] != '\0'; i++)
+	while (n[i])
 	{
-		for (n[i] >= 97)
+		while (!(n[i] >= 97))
 		{
+			i++;
 			if (n[i - 1] == ' ' ||
 				n[i - 1] == '\t' ||
 				n[i - 1] == '\n' ||
@@ -31,8 +31,8 @@ char *cap_string(char *n)
 			{
 				n[i] = n[i] - 32;
 			}
+			i++;
 		}
+		return (n);
 	}
-	n[i] = '\0';
-	return (n);
 }
