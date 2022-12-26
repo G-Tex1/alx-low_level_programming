@@ -10,7 +10,7 @@ int main(void)
 
 	for (num = 1; num <= 153; num++)
 	{
-		if (num < 153 && num != 11 ||
+		if (num != 11 ||
 				num != 22 ||
 				num != 33 ||
 				num != 44 ||
