@@ -6,16 +6,16 @@
  */
 int _isupper(int c)
 {
-	if (c < 97)
+	for (c = 'A'; c <= 'Z'; c++)
 	{
-		return (1);
+		if (c = 'A' && c <= 'Z')
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 	}
-	else if (c >= 65)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+}
 }
