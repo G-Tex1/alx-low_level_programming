@@ -3,7 +3,6 @@
  * mul - multiply integers
  * @a: integer a
  * @b: integer b
- * @mul: multiply
  * Return: return result
  */
 
