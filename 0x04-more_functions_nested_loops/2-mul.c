@@ -3,6 +3,7 @@
  * mul - multiply integers
  * @a: integer a
  * @b: integer b
+ * @mul: multiply
  * Return: return result
  */
 
@@ -10,6 +11,6 @@ int mul(int a, int b)
 {
 	int mul;
 
-	mul == a * b;
+	mul = a * b;
 	return (mul);
 }
