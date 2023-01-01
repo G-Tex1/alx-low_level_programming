@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * print_line - prints line
  * @n: contains the integer
  */
+
 void print_line(int n)
 {
 	int j;
