@@ -6,26 +6,29 @@
 
 int main(void)
 {
-	int num;
-	char i = Fizz;
-	char j = Buzz;
-	char k = FizzBuzz;
+	int n;
 
-	for (num = 0; num <= 100; num++)
+	for (n = 1; n <= 100; n++)
 	{
-		if (num % 3 == 0)
+		if (n == 1)
+			printf("%d", n);
+		else if ((n % 3 == 0) && (n % 5 == 0))
 		{
-			num = i;
+			printf(" FizzBuzz");
 		}
-		else if (num % 5 == 0)
+		else if (n % 3 == 0)
 		{
-			num = j;
+			printf(" Fizz");
 		}
-		else if (num % 3 == 0 && num % 5 == 0)
+		else if (n % 5 == 0)
 		{
-			num = k;
+			printf(" Buzz");
 		}
-		printf("%d \n", num);
+		else
+		{
+			printf(" %d", n);
+		}
 	}
+	printf("\n");
 	return (0);
 }
