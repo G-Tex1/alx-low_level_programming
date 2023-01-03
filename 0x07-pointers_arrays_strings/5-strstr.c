@@ -34,7 +34,7 @@ char *_strstr(char *haystack, char *needle)
 			}
 			if (*a++ != *b++)
 			{
-				break
+				break;
 			}
 		}
 		b = needle;
