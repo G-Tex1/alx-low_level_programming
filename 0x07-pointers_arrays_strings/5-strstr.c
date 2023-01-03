@@ -24,6 +24,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			continue;
 		}
+
 		a = haystack;
 		while (1)
 		{
