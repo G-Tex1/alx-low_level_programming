@@ -9,7 +9,7 @@ int _strlen_recursion(char *s)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	if (s[i] != '\0')
 	{
 		_putchar(s[i] % 100);
 	}
